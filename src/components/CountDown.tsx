@@ -48,7 +48,7 @@ const CountdownTimer = () => {
           initial={{ scale: 0.4, x: 1000 }}
           animate={{ scale: 1, x: 0 }}
           transition={{delay:1.5,duration:.5}}
-          className="text-primary font-semibold absolute bottom-10"
+          className="text-primary font-semibold absolute bottom-20"
         >
           CountDown :{" "}
           <span className=" text-sm md:text-xl font-[800]">
